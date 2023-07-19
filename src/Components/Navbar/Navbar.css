@@ -1,0 +1,223 @@
+.navbar-nav .nav-link {
+  color: #555252;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+.dropend .dropdown-toggle {
+  margin-left: 1em;
+  color: #242424;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dropdown-item:hover {
+  background-color: lightsalmon;
+  color: #fff;
+}
+.dropdown .dropdown-menu {
+  display: none;
+}
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
+  margin-left: 0.125em;
+}
+
+.icons {
+  display: flex;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+.search-form {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.navbar-nav .nav-link.show {
+  color: #555252 !important;
+}
+
+.custom-badge {
+  color: #000;
+}
+.form-group {
+  margin-bottom: 16px;
+}
+
+.remember-me {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.remember-me input {
+  margin-right: 8px;
+}
+
+.forgot-password {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.forgot-password a {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.logintext {
+  text-align: center;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 10px 14px !important;
+  background: #f5f5f5 !important;
+}
+
+.btncntinNavbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.facebookbtninNavbar {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 4px;
+  color: #fcfbfb;
+  border-color: #3d5a98;
+  background: #3d5a98;
+  border: none;
+  font-size: 0.825rem;
+  font-weight: 400;
+  text-shadow: 0 -1px -1px #a22d1f;
+
+  transition: all 0.15s ease-in-out;
+}
+
+.googlebtninNavbar {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 4px;
+  color: #6a6a6a;
+  border-color: #eaeae9;
+  background: #eaeae9;
+  border: none;
+  font-size: 0.825rem;
+  font-weight: 400;
+  text-shadow: 0 -1px -1px #a22d1f;
+  transition: all 0.15s ease-in-out;
+}
+.twoinputfieldcnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.errorcnt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+.headerloginsignup :hover {
+  cursor: pointer;
+}
+
+.form-error {
+  margin-top: -0.65rem !important;
+  margin-left: -4.5rem;
+}
+@media screen and (min-width: 769px) {
+  .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+  .dropend .dropdown-toggle {
+    margin-left: 0.5em;
+  }
+  .search-form {
+    position: static;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    top: auto;
+    left: auto;
+    z-index: 0;
+  }
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  margin: 32px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-height: calc(100% - 16px);
+  max-width: 600px;
+  width: 750px;
+}
+
+.css-h52lfd-MuiFormLabel-root-MuiInputLabel-root {
+  line-height: 0.9em !important;
+  height: 1.5rem !important;
+}
+
+.flexprpty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  font-size: 0.825rem !important;
+}
+
+.signup__footer__disclaimer {
+  text-align: center;
+  color: #9b9691;
+  padding: 16px 48px 8px 48px;
+  border-top: 1px solid #d9d5d2;
+  font-size: 0.825rem !important;
+}
+
+.td--ul {
+  text-decoration: underline !important;
+}
+.tc--lg {
+  color: #9b9691 !important;
+}

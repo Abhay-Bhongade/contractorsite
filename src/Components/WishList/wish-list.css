@@ -1,0 +1,11 @@
+.bottom-icons-area{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.imginsubcategory.wishlist-card-img{
+        height: 10rem !important;
+}
+.right-hard-icon .heart{
+    color: red !important;
+}

@@ -1,0 +1,190 @@
+.dropdown-menu-end.navsubcategory {
+  left: 103.5% !important;
+}
+
+.bnimginsubcategory {
+  height: 35rem !important;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+
+.cntforthreediv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div {
+  padding: 10px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 19rem;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.search-icon {
+  margin-left: 5px;
+  /* Add styling for search icon here */
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-input {
+  padding-right: 2.5rem; /* Adjust the padding as needed to make space for the icon */
+  /* Add any other desired styles for the input field */
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 0.75rem; /* Adjust the right offset as needed to align the icon properly */
+  transform: translateY(-50%);
+  pointer-events: none;
+  /* Add any other desired styles for the search icon */
+}
+
+.handtoolsheading {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 44px;
+}
+.sortbytext {
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 500;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 8px 14px !important;
+  background-color: #f1f1f1 !important;
+}
+.pricecnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardtitleinsubcategory {
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 500;
+}
+.cardparainsubcategory {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #626262;
+}
+.cardofferinsubcategory {
+  color: #e21d1d !important;
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 500;
+}
+.scbtinsubcategory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialiconsinsubcategory {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-lg-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+}
+
+/* .card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+
+.card-title.cardtitleinsubcategory {
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.cardparainsubcategory {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #626262;
+  margin-bottom: 0;
+}
+
+.social-icon {
+  margin-right: 5px;
+}
+
+.price {
+  margin-top: 10px;
+}
+
+.pricecnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardtitleinsubcategory {
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.old.cardtitleinsubcategory {
+  margin-right: 5px;
+}
+
+.cardofferinsubcategory {
+  color: #e21d1d !important;
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.fa {
+  color: #000;
+}
+.cardbodyinsubcategory {
+  position: relative;
+}
+.socialiconsinsubcategory {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.imginsubcategory {
+  height: 14rem !important;
+}
+.card-body {
+  border-top: 1px solid #f7f7f7 !important;
+}

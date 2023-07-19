@@ -1,0 +1,173 @@
+.card-product-checkout-img img{
+        width: 68px;
+    height: 68px;
+    border: 1px solid gainsboro;
+}
+.product-name-card p{
+    font-size: 1rem;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.product-para-card p{
+font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #626262;
+    margin-bottom: 0;
+}
+.product-price-card p{
+    font-size: 1rem;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.main-checkout-price-are{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-checkout-price-left p{
+font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #626262;
+    margin-bottom: 0;
+}
+.main-checkout-price-right p{
+font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #626262;
+    margin-bottom: 0;
+}
+.main-checkout-price-left-main p{
+font-size: 1rem;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.main-checkout-price-right-main p{
+font-size: 1rem;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.address-details-container {
+  /* width: 1029px;
+height: 743px; */
+  padding: 15px 100px !important;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.11);
+}
+.address-heading {
+  margin: 0;
+  font-size: 20px;
+}
+.address-bottom-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-btn-steper {
+  margin-right: 12px !important;
+  padding: 5px 48px !important;
+  border-radius: 10px !important;
+  background: #878787 !important;
+  color: #fff !important;
+  text-transform: initial !important;
+}
+.next-save-btn {
+  margin-left: 12px !important;
+  padding: 5px 48px !important;
+  border-radius: 10px !important;
+  background: #1976d2 !important;
+  color: #fff !important;
+  text-transform: initial !important;
+}
+.button-hover img {
+  width: 35px;
+}
+.button-hover {
+  /* position: absolute; */
+  /* display: inline-block; */
+  /* padding: 10px 20px; */
+
+  background-color: #fff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button-hover:hover::after {
+  content: attr(data-text);
+  position: relative;
+  /* transform: translateX(-50%); */
+  /* background-color: #f00; */
+  padding: 0px 0px;
+  color: #000;
+  font-size: 13px;
+  /* border-radius: 5px; */
+  border: none;
+}
+.payment-swich{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.payment-name-area p{
+        font-weight: bold !important;
+        /* margin: 0; */
+}
+.payment-address-area p{
+margin: 0;
+}
+.billing-addres-area p{
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.billing-address-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading-stepper p{
+
+}
+.addres-final-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.billing-final-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.left-side-final-btn .btn-chnage{
+    padding: 5px 20px !important;
+  border-radius: 5px !important;
+  background: #fff  !important;
+  color: #1976d2 !important;
+  border: 0.5px solid #1976d2 !important;
+  text-transform: initial !important; 
+}
+.right-side-final-payment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-payment{
+    padding-right: 10px;
+}
+.text-payment p{
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 16px;
+    text-transform: uppercase;
+}

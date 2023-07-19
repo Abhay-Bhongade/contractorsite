@@ -1,0 +1,35 @@
+.hyperlinkin_becomeseller {
+  text-align: center;
+  color: #9b9691;
+  font-size: 0.825rem !important;
+}
+
+.td--ul {
+  text-decoration: underline !important;
+}
+.tc--lg {
+  color: blue !important;
+}
+.resendhyperlink {
+  margin-right: -29rem;
+}
+.btncntinbecomesellerpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cancel_btn:hover {
+  background-color: #00aeef !important;
+  color: #fff;
+  border-color: #00aeef;
+}
+.register_btn {
+  background-color: #00aeef !important;
+  color: #fff !important;
+}
+.register_btn:hover {
+  background-color: #fff !important;
+  color: #00aeef !important;
+  border: 1px solid #00aeef !important;
+}
